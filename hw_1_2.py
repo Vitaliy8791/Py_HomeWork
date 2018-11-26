@@ -1,0 +1,17 @@
+one = float(input("Введите первое число:  "))
+two = float(input("Введите второе число:  "))
+print()
+print(one, "+", two, "=", one + two)
+print(one, "-", two, "=", one - two)
+print(one, "*", two, "=", one * two)
+print(one, "/", two, "=", one / two)
+print(one, "//", two, "=", one // two)
+print(one, "%", two, "=", one % two)
+print(one, "**", two, "=", one ** two)
+print(two, "**", one, "=",  two ** one)
+one = round(one)
+two = round(two)
+print("Округлённое первое число - ", one)
+print("Округлённое второе число - ", two)
+
+
